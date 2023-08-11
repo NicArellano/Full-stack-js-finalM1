@@ -1,0 +1,215 @@
+/*Body code*/
+#bd{
+  width: 99vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*Pricipal code*/
+#cabeza{
+  width: 99vw;
+  padding: 10px;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 99vw;
+}
+.head{
+  height: 50px;
+}
+/*Resumen code*/
+/*.t-resumen{
+  padding-left: 10px;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-weight: bold;
+}
+.parrafo-resumen{
+  width: 250px;
+  margin-top: 5%;
+  margin-left: 10.5%;
+  font-weight: bold;
+  font-size: 16px;
+}*/
+#resumen{
+  width: 97vw;
+  height: 55vw;
+  border: 5px solid blue;
+}
+.imagenfondo{
+  height: 100%;  
+}
+/*Education code*/
+#educacion{
+  width: 96vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.educacion{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+}
+.parrafo-educacion{
+  width: 250px; 
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight:normal;
+  font-style: italic;
+}
+.imagencenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+/*Experience code*/
+#experiencia{
+  width: 90vw;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.parrafo-experiencia{
+  color: white;
+  font-size: 15px;
+  font-weight:normal;
+  font-style: italic;
+  padding-left: 20px;
+}
+.img-experiencia{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.div-parrafo-experiencia{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/*Contact code*/
+#contacto{
+  width: 83vw;
+  margin-bottom: 10px;
+}
+.flexcontacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flexiconos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/*Footer code*/
+#footer{
+  width: 79vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.icono{
+  color: white;
+  width: 100px;
+}
+.icononame{
+  font-size: 15px;
+  font-weight:normal;
+  font-style: italic;
+}
+/*General code*/
+.subtitulo{
+  font-weight:normal;
+  font-style: italic;
+}
+.tabla-borde{
+  border: 5px solid blue;
+  width: 99vw;
+}
+
+
+/*
+
+ESTILOS PORTAFOLIO
+
+*/
+
+
+/*Principal Code*/
+#bdy{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cuerpo{
+  background-color: black;
+  width: 90vw;
+  margin-left: 50px;
+}
+/*Main code*/
+.centrartabla{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+/*Table external images*/
+.img{
+  width: 50vw;
+  height: 50vw;
+}
+.centrar{
+  display: flex;
+  align-items: center;
+}
+/*Table internal images*/
+.imgt{
+  width: 26vw;
+  height: 26vw;
+}
+.prueba{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Table styles*/
+table th{
+  border: 4px solid blue; 
+}
+table td{
+  padding: 10px;
+}
+.borde{
+  border: 3px solid blue;
+}
+/*General code*/
+.parrafo{
+  font-weight:bold;
+  color: white;
+  font-weight:normal;
+  font-style: italic;
+  font-size: 30px;
+}
